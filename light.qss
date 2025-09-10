@@ -1,0 +1,71 @@
+/* Base Window - Vintage meets Neon Pop */
+QWidget {
+    background-color: #fffaf0; /* Soft parchment tone */
+    color: #1f1f1f;
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+}
+
+/* Chat Display - Retro terminal parchment */
+QTextEdit {
+    background-color: #fffde7;
+    color: #2b2b2b;
+    border: 2px solid #a1a178;
+    border-radius: 6px;
+    padding: 10px;
+    selection-background-color: #bada55;
+    selection-color: #000000;
+}
+
+/* Input Field - Punched card feel */
+QLineEdit {
+    background-color: #fffff0;
+    color: #2b2b2b;
+    border: 2px solid #b0b07a;
+    border-radius: 4px;
+    padding: 6px;
+    selection-background-color: #e0e0b0;
+    selection-color: #1f1f1f;
+}
+
+/* Retro Buttons - Pop terminal keys */
+QPushButton {
+    background-color: #fdf6d9;
+    color: #2a2a2a;
+    border: 2px solid #bdbd93;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #f0e4b8;
+}
+
+/* Tool Buttons - Same snazzy style */
+QToolButton {
+    background-color: #fdf6d9;
+    color: #2a2a2a;
+    border: 2px solid #bdbd93;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-weight: bold;
+}
+
+QToolButton:hover {
+    background-color: #f0e4b8;
+}
+
+/* Menu Styling - CRT dropdown */
+QMenu {
+    background-color: #fffff0;
+    color: #2b2b2b;
+    border: 1px solid #ccccaa;
+    font-family: "Courier New", monospace;
+    font-size: 13px;
+}
+
+QMenu::item:selected {
+    background-color: #f0e68c;
+    color: #000000;
+}

@@ -1,0 +1,68 @@
+/* Base Style */
+QWidget {
+    background-color: #000000;
+    color: #33FF33;
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+}
+
+/* Chat Display (Terminal Monitor) */
+QTextEdit {
+    background-color: #000000;
+    color: #33FF33;
+    border: 1px solid #006400;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+/* Input Field (Command Line) */
+QLineEdit {
+    background-color: #000000;
+    color: #7CFC00;
+    border: 1px solid #228B22;
+    border-radius: 3px;
+    padding: 6px;
+    selection-background-color: #228B22;
+    selection-color: #000000;
+}
+
+/* Terminal Buttons */
+QPushButton {
+    background-color: #003300;
+    color: #00FF00;
+    border: 1px solid #00FF00;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #005500;
+}
+
+/* Dropdown-style Tool Buttons */
+QToolButton {
+    background-color: #003300;
+    color: #00FF00;
+    border: 1px solid #00FF00;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-weight: bold;
+}
+
+QToolButton:hover {
+    background-color: #005500;
+}
+
+/* Menus (Retro Pop-up Feel) */
+QMenu {
+    background-color: #000000;
+    color: #33FF33;
+    border: 1px solid #00FF00;
+    font-family: "Courier New", monospace;
+    font-size: 13px;
+}
+
+QMenu::item:selected {
+    background-color: #006400;
+}
